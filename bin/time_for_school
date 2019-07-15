@@ -22,4 +22,6 @@ puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' fr
 jim = Student.new
 jim.first_name = "Jim"
 jim.last_name = "Tom"
-jim.learn
+jim.learn("cool info")
+
+puts "Jim just learn #{jim.knowledge.first}"
